@@ -1,0 +1,61 @@
+.landing-logo-wrapper {
+  padding-top: 10px !important;
+  padding-left: 0 !important;
+  padding-bottom: 0 !important
+}
+.landing-logo {
+  padding: 0;
+}
+.landing-hero {
+  background-color: #142831;
+  background-image: radial-gradient(50% 50%, #2b3d46, #142831);
+  background-size: 200%;
+  background-position: -150% 100%;
+}
+.landing-hero-image {
+  padding-top: 95px !important;
+  padding-bottom: 85px !important;
+  position: relative !important;
+}
+.landing-hero-image::before {
+  content: " ";
+  background-image: url("/logos/image-hero.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100px;
+  background-size: 50% auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.05;
+}
+.landing-hero-card {
+  padding: 0;
+}
+.landing-hero-header-container {
+  padding: 0;
+}
+.landing-hero-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+.landing-hero-subheader-container {
+  margin-top: 25px;
+}
+.landing-hero-subheader-container p {
+  margin-bottom: 0;
+}
+.landing-hero-subheader {
+  color: white;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 0.04em;
+}
+.landing-hero-buttons-container {
+  margin-top: 50px;
+}
+.landing-hero-button {
+  min-width: 250px;
+}

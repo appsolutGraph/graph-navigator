@@ -60,7 +60,7 @@ npm install gatsby-cli --save
 
 The above command inserts `gatsby` into the dependencies of the `package.json` file, which tells Netlify what tools it needs to build the site.
 
-To set the required version of Node.js for building the site a new `.nvmrc` file has been added to the project.  
+To set the required version of Node.js for building the site a new `.nvmrc` file has been added to the project. And to prevent Netlify to use yarn in the build chain, the file `yarn.lock` is removed.
 
 ### Extension 4: Semantic UI
 

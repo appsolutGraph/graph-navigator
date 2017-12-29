@@ -1,10 +1,10 @@
 module.exports = {
-  siteTitle: "appsolut Starter", // Site title.
-  siteTitleAlt: "appsolut Starter", // Alternative site title for SEO.
+  siteTitle: "appsolut graph-navigator", // Site title.
+  siteTitleAlt: "appsolut graph-navigator", // Alternative site title for SEO.
   siteLogo: "/logos/logo-main.png", // Logo used for SEO and manifest.
   siteUrl: "https://graph-navigator.com", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/project/. (example: /project)
-  siteDescription: "appsolut starter project for Static-CMS based on Gatsby and Netlify.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Website of the appsolut Graph-Navigator | Create Insights from Data.", // Website description used for RSS feeds/meta description tag.
   blogPostDir: "blog", // The name of directory that contains posts.
   docLessonDir: "doc", // The name of the directory that contains doc pages or lessons.
   infoPageDir: "info", // The name of the directory that contains static info pages.

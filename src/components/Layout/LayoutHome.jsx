@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
+import HeaderHome from "../Header/HeaderHome";
+import FooterHome from "../Footer/FooterHome";
 import "./Layout.css";
 
 class LayoutHome extends Component {
@@ -8,12 +8,12 @@ class LayoutHome extends Component {
     const { children, LocalTitle } = this.props;
     const footerLinks = false;
     return (
-      <div style={{ margin: '0 auto', maxWidth: 900, padding: '0 1rem' }}>
-        <Header LocalTitle={LocalTitle} />
+      <div>
+        <HeaderHome LocalTitle={LocalTitle} />
         <div className="main-container">
           {children}
         </div>
-        <Footer userLinks={footerLinks} />
+        <FooterHome userLinks={footerLinks} />
       </div>
     );
   }
